@@ -16,6 +16,7 @@ struct ContentView: View {
 		ForEach(store.things, id: \.name) { thing in
 			Label(thing.name, systemImage: thing.icon)
 		}
+		// can  load the data here (instead of in the App) with .onAppear()
     }
 }
 
