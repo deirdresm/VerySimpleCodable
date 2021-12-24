@@ -7,21 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		38607FA1277579E800452EFF /* database.json in Resources */ = {isa = PBXBuildFile; fileRef = 38CCFAB927752171007BD37B /* database.json */; };
+		38607FA2277579E900452EFF /* database.json in Resources */ = {isa = PBXBuildFile; fileRef = 38CCFAB927752171007BD37B /* database.json */; };
+		38607FA427757FB500452EFF /* LICENSE.md in Resources */ = {isa = PBXBuildFile; fileRef = 38607FA327757FB500452EFF /* LICENSE.md */; };
+		38607FA527757FB500452EFF /* LICENSE.md in Resources */ = {isa = PBXBuildFile; fileRef = 38607FA327757FB500452EFF /* LICENSE.md */; };
 		38CCFAA2277518D4007BD37B /* VerySimpleCodableApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CCFA92277518D3007BD37B /* VerySimpleCodableApp.swift */; };
 		38CCFAA3277518D4007BD37B /* VerySimpleCodableApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CCFA92277518D3007BD37B /* VerySimpleCodableApp.swift */; };
 		38CCFAA4277518D4007BD37B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CCFA93277518D3007BD37B /* ContentView.swift */; };
 		38CCFAA5277518D4007BD37B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CCFA93277518D3007BD37B /* ContentView.swift */; };
 		38CCFAA6277518D4007BD37B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38CCFA94277518D4007BD37B /* Assets.xcassets */; };
 		38CCFAA7277518D4007BD37B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38CCFA94277518D4007BD37B /* Assets.xcassets */; };
+		38CCFAB127751B55007BD37B /* Thing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CCFAB027751B55007BD37B /* Thing.swift */; };
+		38CCFAB227751B55007BD37B /* Thing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CCFAB027751B55007BD37B /* Thing.swift */; };
+		38CCFAB427751C01007BD37B /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CCFAB327751C01007BD37B /* Store.swift */; };
+		38CCFAB527751C01007BD37B /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CCFAB327751C01007BD37B /* Store.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		38607FA327757FB500452EFF /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
 		38CCFA92277518D3007BD37B /* VerySimpleCodableApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerySimpleCodableApp.swift; sourceTree = "<group>"; };
 		38CCFA93277518D3007BD37B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		38CCFA94277518D4007BD37B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		38CCFA99277518D4007BD37B /* VerySimpleCodable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VerySimpleCodable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38CCFA9F277518D4007BD37B /* VerySimpleCodable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VerySimpleCodable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38CCFAA1277518D4007BD37B /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		38CCFAB027751B55007BD37B /* Thing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thing.swift; sourceTree = "<group>"; };
+		38CCFAB327751C01007BD37B /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		38CCFAB927752171007BD37B /* database.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = database.json; sourceTree = "<group>"; };
+		38CCFABA277554F8007BD37B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +58,7 @@
 		38CCFA8C277518D2007BD37B = {
 			isa = PBXGroup;
 			children = (
+				38CCFABA277554F8007BD37B /* README.md */,
 				38CCFA91277518D3007BD37B /* Shared */,
 				38CCFAA0277518D4007BD37B /* macOS */,
 				38CCFA9A277518D4007BD37B /* Products */,
@@ -56,7 +70,12 @@
 			children = (
 				38CCFA92277518D3007BD37B /* VerySimpleCodableApp.swift */,
 				38CCFA93277518D3007BD37B /* ContentView.swift */,
+				38CCFAB027751B55007BD37B /* Thing.swift */,
+				38CCFAB327751C01007BD37B /* Store.swift */,
+				38CCFABB277567AD007BD37B /* Previews */,
+				38CCFAB927752171007BD37B /* database.json */,
 				38CCFA94277518D4007BD37B /* Assets.xcassets */,
+				38607FA327757FB500452EFF /* LICENSE.md */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -76,6 +95,13 @@
 				38CCFAA1277518D4007BD37B /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		38CCFABB277567AD007BD37B /* Previews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Previews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,6 +183,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38607FA1277579E800452EFF /* database.json in Resources */,
+				38607FA427757FB500452EFF /* LICENSE.md in Resources */,
 				38CCFAA6277518D4007BD37B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -165,6 +193,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38607FA2277579E900452EFF /* database.json in Resources */,
+				38607FA527757FB500452EFF /* LICENSE.md in Resources */,
 				38CCFAA7277518D4007BD37B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -176,7 +206,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38CCFAB127751B55007BD37B /* Thing.swift in Sources */,
 				38CCFAA4277518D4007BD37B /* ContentView.swift in Sources */,
+				38CCFAB427751C01007BD37B /* Store.swift in Sources */,
 				38CCFAA2277518D4007BD37B /* VerySimpleCodableApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -185,7 +217,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38CCFAB227751B55007BD37B /* Thing.swift in Sources */,
 				38CCFAA5277518D4007BD37B /* ContentView.swift in Sources */,
+				38CCFAB527751C01007BD37B /* Store.swift in Sources */,
 				38CCFAA3277518D4007BD37B /* VerySimpleCodableApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -378,6 +412,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -406,6 +441,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
