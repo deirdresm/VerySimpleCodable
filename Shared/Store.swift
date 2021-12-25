@@ -15,6 +15,10 @@ extension UTType {
 	}
 }
 
+// note: I used a ReferenceFileObject here because it's an ObservableObject, which
+// has to be a class. However, if you didn't want that, you could use a FileDocument,
+// which is a struct and somewhat simpler.
+
 final class Store: ObservableObject, ReferenceFileDocument {
 	typealias Snapshot = [Thing]
 
